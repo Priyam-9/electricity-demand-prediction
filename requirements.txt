@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+seaborn
+# xgboost (optional)
+# xgboost
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+seaborn
+# xgboost
+fastapi
+uvicorn[standard]
