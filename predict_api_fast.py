@@ -1,3 +1,4 @@
+///connect it with_pranjals
 """
 FastAPI app to serve state-level predicted demand using saved artifacts from the notebook.
 Endpoints:
@@ -179,3 +180,4 @@ if __name__ == '__main__':
         logger.error('uvicorn is not installed. Install with `pip install uvicorn[standard]`')
         raise
     uvicorn.run('predict_api_fast:app', host='0.0.0.0', port=8000, reload=True)
+
