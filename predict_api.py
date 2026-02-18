@@ -25,7 +25,7 @@ DATA_CSV = 'PSP_Weather_Merged_EDA_Cleaned.csv'
 PIPELINE_PATH = 'preprocess.joblib'
 MODEL_PATH = 'demand_model.pkl'
 
-# Load artifacts at startup (fail fast with clear error message)
+# Load artifacts at startup (fail fast with clear error message)EDG
 pipeline = None
 model = None
 
@@ -180,3 +180,4 @@ def top_state():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
+
